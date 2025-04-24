@@ -90,6 +90,10 @@ body {
     -webkit-tap-highlight-color: transparent
 }
 
+.carousel {
+    margin-top: 30px;
+}
+
 .slide-down {
     animation: slideDown 0.5s ease-out;
 }
@@ -6339,9 +6343,7 @@ textarea.form-control-lg {
 
 .carousel-inner {
     position: relative;
-    margin-top: 30px;   /* Modifiquei aqui */
-    width: 100%;         /* Modifiquei aqui */
-    margin-left: 1.5%;    /* Modifiquei aqui */
+    width: 100%;
     overflow: hidden
 }
 
